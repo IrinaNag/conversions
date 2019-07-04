@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testattenti.conversions.tests.ConvertMetersToFeetTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-04T09:23:04" hostname="Irishka" time="49.192">
+  <properties/>
+  <testcase name="testConvertMetersToFeet[0](TestData{value=0})" classname="com.testattenti.conversions.tests.ConvertMetersToFeetTest" time="2.38"/>
+  <testcase name="testConvertMetersToFeet[1](TestData{value=100})" classname="com.testattenti.conversions.tests.ConvertMetersToFeetTest" time="1.937"/>
+  <testcase name="testConvertMetersToFeet[2](TestData{value=1000})" classname="com.testattenti.conversions.tests.ConvertMetersToFeetTest" time="44.871"/>
+  <system-out><![CDATA[12:23:04.361 [Test worker] INFO  c.t.conversions.tests.TestBase - Start test testConvertMetersToFeet[TestData{value=0}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
