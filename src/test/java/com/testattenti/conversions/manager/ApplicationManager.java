@@ -14,8 +14,10 @@ public class ApplicationManager {
     private ConvertHelper convertHelper;
 
     public void start() {
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage (). window (). maximize ();
         navigationHelper = new NavigationHelper(driver);
         navigationHelper.site(SITE_URI);
         convertHelper = new ConvertHelper(driver);

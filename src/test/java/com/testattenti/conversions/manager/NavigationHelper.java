@@ -2,6 +2,8 @@ package com.testattenti.conversions.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NavigationHelper extends HelperBase {
 
@@ -14,7 +16,8 @@ public class NavigationHelper extends HelperBase {
         driver.get(url);
     }
 
-    public void page(By locator) throws InterruptedException {
+    public void page(By locator) {
+        new WebDriverWait(driver,30).until(ExpectedConditions.elementToBeClickable(locator));
         click(locator);
     }
 

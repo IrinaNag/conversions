@@ -3,6 +3,8 @@ package com.testattenti.conversions.manager;
 import com.testattenti.conversions.model.TestData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,15 +20,17 @@ public class ConvertHelper extends HelperBase {
     }
 
 
-    public void enterValue(String value) throws InterruptedException {
+    public void enterValue(String value) {
+        new WebDriverWait(driver,30).until(ExpectedConditions.elementToBeClickable(By.cssSelector("#argumentConv")));
         type(By.cssSelector("#argumentConv"), value);
     }
 
-    private String getAnswer() throws InterruptedException {
+    private String getAnswer() {
+        new WebDriverWait(driver,30).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#answer")));
         return getText(By.cssSelector("#answer"));
     }
 
-    public int parsAnswer() throws InterruptedException {
+    public int parsAnswer() {
         String answer = getAnswer();
         int index1 = answer.indexOf(' ') + 1;
         int index2 = 0;
