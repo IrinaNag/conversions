@@ -1,0 +1,123 @@
+{
+  "uid" : "f541e8a86b270a24",
+  "name" : "testConvertMetersToFeet",
+  "fullName" : "com.testattenti.conversions.tests.ConvertMetersToFeetTest.testConvertMetersToFeet",
+  "historyId" : "433921c116172c45cbb541f2cd9cd7a0",
+  "time" : {
+    "start" : 1563386731803,
+    "stop" : 1563386734039,
+    "duration" : 2236
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStart",
+    "time" : {
+      "start" : 1563386731795,
+      "stop" : 1563386731796,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1563386689111,
+      "stop" : 1563386724005,
+      "duration" : 34894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1563386734043,
+      "stop" : 1563386734044,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1563386742309,
+      "stop" : 1563386743196,
+      "duration" : 887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testattenti.conversions.tests.ConvertMetersToFeetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testattenti.conversions.tests.ConvertMetersToFeetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testConvertMetersToFeet"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testattenti.conversions.tests.ConvertMetersToFeetTest"
+  }, {
+    "name" : "host",
+    "value" : "Irishka"
+  }, {
+    "name" : "thread",
+    "value" : "14692@Irishka.Test worker(11)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TestData{value=0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f541e8a86b270a24.json",
+  "parameterValues" : [ "TestData{value=0}" ]
+}

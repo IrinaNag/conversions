@@ -1,0 +1,123 @@
+{
+  "uid" : "c53ce57f3202dbe9",
+  "name" : "testConvertCelsiusToFahrenheit",
+  "fullName" : "com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest.testConvertCelsiusToFahrenheit",
+  "historyId" : "5e93a9c82d709f85dea2ad2a55f1e583",
+  "time" : {
+    "start" : 1563386724926,
+    "stop" : 1563386728274,
+    "duration" : 3348
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStart",
+    "time" : {
+      "start" : 1563386724111,
+      "stop" : 1563386724128,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1563386689111,
+      "stop" : 1563386724005,
+      "duration" : 34894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1563386728313,
+      "stop" : 1563386728316,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1563386742309,
+      "stop" : 1563386743196,
+      "duration" : 887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testConvertCelsiusToFahrenheit"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest"
+  }, {
+    "name" : "host",
+    "value" : "Irishka"
+  }, {
+    "name" : "thread",
+    "value" : "14692@Irishka.Test worker(11)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TestData{value=-100}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c53ce57f3202dbe9.json",
+  "parameterValues" : [ "TestData{value=-100}" ]
+}

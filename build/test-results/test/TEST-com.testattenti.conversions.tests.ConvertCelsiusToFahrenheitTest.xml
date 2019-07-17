@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-04T09:22:57" hostname="Irishka" time="6.802">
+<testsuite name="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-17T18:05:24" hostname="Irishka" time="7.049">
   <properties/>
-  <testcase name="testConvertCelsiusToFahrenheit[0](TestData{value=-100})" classname="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" time="2.026"/>
-  <testcase name="testConvertCelsiusToFahrenheit[1](TestData{value=0})" classname="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" time="1.683"/>
-  <testcase name="testConvertCelsiusToFahrenheit[2](TestData{value=100})" classname="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" time="3.051"/>
-  <system-out><![CDATA[12:22:57.546 [Test worker] INFO  c.t.conversions.tests.TestBase - Start test testConvertCelsiusToFahrenheit[TestData{value=-100}]
+  <testcase name="testConvertCelsiusToFahrenheit[0](TestData{value=-100})" classname="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" time="3.571"/>
+  <testcase name="testConvertCelsiusToFahrenheit[1](TestData{value=0})" classname="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" time="1.569"/>
+  <testcase name="testConvertCelsiusToFahrenheit[2](TestData{value=100})" classname="com.testattenti.conversions.tests.ConvertCelsiusToFahrenheitTest" time="1.732"/>
+  <system-out><![CDATA[21:05:24.119 [Test worker] INFO  c.t.conversions.tests.TestBase - Start test testConvertCelsiusToFahrenheit[TestData{value=-100}]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

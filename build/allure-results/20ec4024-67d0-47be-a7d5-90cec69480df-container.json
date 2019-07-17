@@ -1,0 +1,1 @@
+{"uuid":"20ec4024-67d0-47be-a7d5-90cec69480df","name":"com.testattenti.conversions.tests.TestBase.logTestStop","description":"","start":1563386737526,"stop":1563386737526,"children":["479389a7-1435-4e4f-9c26-8daa32775730"],"afters":[{"name":"logTestStop","status":"passed","stage":"finished","description":"","start":1563386737526,"stop":1563386737526}]}

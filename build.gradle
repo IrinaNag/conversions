@@ -1,5 +1,25 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.3"
+    }
+}
+
 plugins {
     id 'java'
+}
+
+plugins {
+    id 'io.qameta.allure' version '2.3'
+}
+
+allure {
+    version = '2.2.1'
+    autoconfigure = true
+    aspectjweaver = true
+    //allureJavaVersion = LATEST_VERSION
 }
 
 group 'conversions'
@@ -23,3 +43,7 @@ test {
         suites 'src/test/resources/testng.xml'
     }
 }
+
+
+
+

@@ -1,0 +1,123 @@
+{
+  "uid" : "a9800e30b84499d1",
+  "name" : "testConvertOuncesToGrams",
+  "fullName" : "com.testattenti.conversions.tests.ConvertOuncesToGramsTest.testConvertOuncesToGrams",
+  "historyId" : "9653b2fc48d2099d8d20a9c9d47c235d",
+  "time" : {
+    "start" : 1563386740929,
+    "stop" : 1563386742286,
+    "duration" : 1357
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStart",
+    "time" : {
+      "start" : 1563386740925,
+      "stop" : 1563386740926,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1563386689111,
+      "stop" : 1563386724005,
+      "duration" : 34894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1563386742289,
+      "stop" : 1563386742290,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1563386742309,
+      "stop" : 1563386743196,
+      "duration" : 887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testattenti.conversions.tests.ConvertOuncesToGramsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testattenti.conversions.tests.ConvertOuncesToGramsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testConvertOuncesToGrams"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testattenti.conversions.tests.ConvertOuncesToGramsTest"
+  }, {
+    "name" : "host",
+    "value" : "Irishka"
+  }, {
+    "name" : "thread",
+    "value" : "14692@Irishka.Test worker(11)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TestData{value=1000}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9800e30b84499d1.json",
+  "parameterValues" : [ "TestData{value=1000}" ]
+}
